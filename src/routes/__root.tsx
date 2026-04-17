@@ -56,6 +56,12 @@ export const Route = createRootRoute({
       { name: "description", content: "Sydney's trusted remedial builders. Concrete repair, balcony waterproofing, facade restoration & structural strengthening. Licensed, insured. Free quotes." },
       { name: "author", content: site.name },
       { name: "theme-color", content: "#1a2342" },
+      { property: "og:title", content: "Cornerstone Remedial Builders | Sydney Concrete Repair & Waterproofing" },
+      { name: "twitter:title", content: "Cornerstone Remedial Builders | Sydney Concrete Repair & Waterproofing" },
+      { property: "og:description", content: "Sydney's trusted remedial builders. Concrete repair, balcony waterproofing, facade restoration & structural strengthening. Licensed, insured. Free quotes." },
+      { name: "twitter:description", content: "Sydney's trusted remedial builders. Concrete repair, balcony waterproofing, facade restoration & structural strengthening. Licensed, insured. Free quotes." },
+      { name: "twitter:card", content: "summary" },
+      { property: "og:type", content: "website" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
